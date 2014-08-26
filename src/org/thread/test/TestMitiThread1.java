@@ -21,6 +21,7 @@ public class TestMitiThread1 implements Runnable {
 		// TODO Auto-generated method stub
 		System.out.println(Thread.currentThread().getName() + " 线程运行开始!");
 		for (int i = 0; i < 10; i++) {
+			System.out.println();
             System.out.println(i + " " + Thread.currentThread().getName());
             try {
                 Thread.sleep((int) Math.random() * 10);
