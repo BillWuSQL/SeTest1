@@ -9,10 +9,14 @@ import java.net.Socket;
 public class MySever {
 
 	public static void main(String[] args) throws IOException {
+		
+		System.out.println(0 >> 3);
+		
+		
 		// TODO Auto-generated method stub
-		ServerSocket server = new ServerSocket(10000);
-		Socket socket = server.accept();
-		BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+//		ServerSocket server = new ServerSocket(10000);
+//		Socket socket = server.accept();
+//		BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
 		
 	}
 
