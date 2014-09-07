@@ -1,8 +1,8 @@
 package org.pattern.decorator;
 
 public abstract class Decorator implements Human {
-	private Human human;  
-	public Decorator(Human human) {  
+	private Human human;
+	public Decorator(Human human) {
         this.human = human;  
     }
   
